@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SwiftyDataSource:
-    :commit: 74ceec6b562cbefc220995490bd3e7acd88b8833
+    :commit: cd9718be89ab99b0bdb1f9601d6048a901cc303e
     :git: https://github.com/shalkovy/SwiftyDataSource
 
 SPEC CHECKSUMS:

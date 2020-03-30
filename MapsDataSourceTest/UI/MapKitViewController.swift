@@ -18,8 +18,7 @@ class MapKitViewController: UIViewController, MapViewDataSourceDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        dataSource.addAnnotations([TestMark(coordinate: CLLocationCoordinate2D(latitude: 53.53, longitude: 27.34), title: "first one")])
-        dataContainer.add(sectionObjects: [TestMark(coordinate: CLLocationCoordinate2D(latitude: 53.53, longitude: 27.34), title: "first one")])
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -28,6 +27,7 @@ class MapKitViewController: UIViewController, MapViewDataSourceDelegate {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
         
     }
     
